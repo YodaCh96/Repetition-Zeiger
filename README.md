@@ -1,6 +1,6 @@
 # Repetition Zeiger
 
-Mithilfe dieser Repetitionsaufgabe sollen einige grundlegende Aspekte zur Programmierung mit Zeigern (Pointer) in C aufgefrischt und ggf. vertieft werden.
+Mithilfe dieser Repetitionsaufgabe sollen einige grundlegende Aspekte zur Programmierung mit Zeigern in C aufgefrischt und ggf. vertieft werden.
 
 ## Vorbereitung
 
