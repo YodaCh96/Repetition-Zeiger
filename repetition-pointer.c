@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 // Task 14
-void myPrint(char *string) {
+void myPrint(char* string) {
 	printf("\n%s\n", string);
 }
 
@@ -14,7 +14,7 @@ int main()
 	int c;
 
 	// Task 2
-	int *pointerA;
+	int* pointerA;
 	int* pointerB;
 
 	// Task 3
@@ -33,7 +33,7 @@ int main()
 	printf("\nValue of pointerB: %d\n", *pointerB);
 
 	// Task 5
-	int *pointerC = &c;
+	int* pointerC = &c;
 
 	// Task 6
 	// Variable c is not initialised and contains a random value.
@@ -46,15 +46,15 @@ int main()
 	char character = 'x';
 
 	// Task 8
-	char *pointer1 = &character;
-	char *pointer2 = pointer1;
+	char* pointer1 = &character;
+	char* pointer2 = pointer1;
 
 	// Task 9
 	*pointer1 = 'X';
 	printf("\nInhalt von pointer2: %c\n", *pointer2);
-	
+
 	// Task 10
-	int array[] = {1, 2, 3, 5, 7};
+	int array[] = { 1, 2, 3, 5, 7 };
 
 	// Task 11a
 	// without Pointer
@@ -66,7 +66,7 @@ int main()
 
 	// Task 11b
 	// with Pointer
-	int *arrayIndex = array;
+	int* arrayIndex = array;
 	for (int i = 0; i < sizeof(array) / sizeof(int); i++)
 	{
 		printf("\nWert %d: %d", i, *arrayIndex);
